@@ -1,0 +1,37 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Prompt:wght@500&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.start-journey{
+    display: flex;
+    justify-content: space-between;
+}
+.influencer{
+    height: 270px;
+    width: 382px;
+    background-color: mediumvioletred;
+   
+}
+.img{
+   width: 340px;
+   height: 314px; 
+   margin-right: 170px;
+  
+  
+}
+
+.circle{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
