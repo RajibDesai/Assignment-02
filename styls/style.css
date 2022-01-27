@@ -11,27 +11,73 @@ body{
     justify-content: space-between;
     align-items: center;
    
+   
+   
 }
 .start-journey{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 230px;
+    align-content: center;
 }
 .influencer{
     height: 270px;
     width: 382px;
-    background-color: mediumvioletred;
+   
    
 }
-.img{
-   width: 340px;
-   height: 314px; 
-   margin-right: 170px;
-  
-  
-}
 
+.img-circle{
+    width: 340px;
+    height: 314px; 
+    margin-right: 170px;
+   
+    
+}
 .circle{
     position: absolute;
     top: 100px;
     right: 100px;
+    
 }
+.collection{
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 1px; */
+    /* border-color: solid,rosybrown; */
+   
+
+}
+
+
+.camera-pic {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-left: 200px;
+  
+}
+.popular{
+   text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.media{
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 185px;
+    align-items: center;
+    
+}
+.footer > .media{
+    margin-right: 5px;
+}
+
+
+
+
