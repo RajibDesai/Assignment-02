@@ -62,21 +62,43 @@ body{
 .popular{
    text-align: center;
 }
+
+.more{
+    position: relative;
+    left: 1000px;
+    color: indianred;
+}
 .footer{
     display: flex;
     justify-content: center;
-}
-.media{
-    display: flex;
-    position: relative;
-    top: 80px;
-    right: 185px;
-    align-items: center;
+    background-color: mediumblue;
     
 }
-.footer > .media{
-    margin-right: 5px;
+.media{
+    display: grid;
+    grid-template-columns: auto
+    auto auto auto;
+
+    column-gap: 10px;
+    position: relative;
+    top: 60px;
+    right: 185px;
+    align-items: center;
+
 }
+#foot{
+    position: relative;
+    top: 20px;
+    margin-left: 25px;
+   
+}
+.right{
+    position: relative;
+    top: -15px;
+    margin-left: 85px;
+}
+
+
 
 
 
