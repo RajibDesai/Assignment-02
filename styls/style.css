@@ -166,10 +166,8 @@ Media Queries
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  @media only screen and (max-width:668px) {
-    *{
-        box-sizing:border-box
-    }
+
+   
     .header{
         background-color: azure;
         width: 100%;
@@ -204,10 +202,10 @@ Media Queries
         display: flex;
     }
 
-}
+  }
   
   
-}
+
 
 
 
